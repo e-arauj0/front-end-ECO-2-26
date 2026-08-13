@@ -1,0 +1,18 @@
+
+
+.imagem {
+    max-width: 700px;
+    max-height: 900px;
+    margin-top: 50px;
+}
+
+.tabela {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    background-color: #31060696;
+    border: auto solid #333333;
+    padding: 10px;
+  }
