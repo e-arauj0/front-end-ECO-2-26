@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IFSP Connect</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="brand">IFSP Connect</h1>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#video">Vídeo institucional</a>
+          <a href="#podcast">Podcast</a>
+          <a href="#imagem">Imagem</a>
+          <a href="#sobre">Sobre</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="video" class="card">
+        <h2>Vídeo institucional</h2>
+        <p>Apresentação institucional do IFSP. Substitua o link do YouTube pelo vídeo oficial da instituição, se houver.</p>
+        <div class="video-wrap">
+          <!-- Exemplo de embed YouTube: substitua o src pelo vídeo institucional -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo institucional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section id="podcast" class="card">
+        <h2>Podcast da instituição</h2>
+        <p>Ouça abaixo um episódio introdutório. Substitua o arquivo de áudio pelo podcast real do IFSP.</p>
+        <audio controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio. <a href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">Baixe o áudio</a>.
+        </audio>
+      </section>
+
+      <section id="imagem" class="card">
+        <h2>Imagem ilustrativa</h2>
+        <p>Imagem representativa da instituição ou campanha. Troque pela imagem oficial.</p>
+        <figure class="figure">
+          <img src="https://via.placeholder.com/800x400.png?text=IFSP+Connect" alt="Imagem ilustrativa IFSP Connect" />
+          <figcaption>Imagem ilustrativa — substitua pela imagem oficial do IFSP.</figcaption>
+        </figure>
+      </section>
+
+      <section id="sobre" class="card">
+        <h2>Sobre</h2>
+        <p>Portal de demonstração que reúne conteúdos multimídia do IFSP de forma organizada e acessível.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> IFSP Connect — Todos os direitos reservados.</p>
+        <nav class="footer-nav" aria-label="Links auxiliares">
+          <a href="#">Contato</a>
+          <a href="#">Política de privacidade</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      // Atualiza o ano no rodapé
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
