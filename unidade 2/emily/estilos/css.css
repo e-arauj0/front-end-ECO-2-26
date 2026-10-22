@@ -5,3 +5,9 @@ h1{
     text-align: center;
    
 }
+
+body{
+    background-color: rgb(132, 189, 255);
+    font-family: Arial, sans-serif;
+    color:#000000;
+}
