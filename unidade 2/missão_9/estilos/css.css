@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    .card {
+    width: 350px;
+    padding: 20px;
+    border: 2px solid #0B5ED7;
+    margin: 30px;
+    background: #F8F9FA;
+    }
+    div {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    }
+    h2 {
+    color: darkblue;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    }
+    p {
+    color: gray;
+    }
+    .destaque {
+    color: red;
+    font-weight: bold;
+    }
+    #principal {
+    color: green;
+    text-align: center;
+    }
+    h3 {
+    color: rebeccapurple;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    }
+    
