@@ -1,6 +1,9 @@
      body{
-     font-family: Arial, sans-serif;
-     background-color: #d6d2fc;
+          font-family: Arial, sans-serif;
+          background-color: #d6d2fc;
+          font-family: Monolisa;
+          font-size: 17px;
+          line-height:1.5;
      }
 
      table{
@@ -23,6 +26,8 @@
      #principal{
           text-align: center;
           color: #0c0830;
+          font-family: JetBrains Mono;
+          letter-spacing:3px;
      }
 
      #card{
@@ -30,6 +35,7 @@
           border-radius: 20px ;
           width: auto;
           height: auto;
+          padding: 25px;
      }
 
      #destaque{
@@ -40,6 +46,52 @@
           width: auto;
           height: auto;
           border-radius: 15px ;
+          font-family: JetBrains Mono;
+          letter-spacing:3px;
      }
+
+     a:hover{
+          color: #5c5696;
+     }
+
+     input:focus{
+          border:2px solid blue;
+          background-color: #5c5696;
+          color: white
+         }
+
+     h2::before{
+          content:"📚";
+     }
+
+     input[type="password"]{
+          background-color: #a09bc9;
+          color: white
+     }
+
+     #links{
+          text-decoration: none;
+          font-weight: bold;
+     }
+     #imagem-centralizada {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+     }
+
+     #div-centralizada {
+          display: flex;
+          justify-content: center;
+          flex-wrap: nowrap;
+          margin-left: 25px;
+          margin-right: 25px;
+     }
+
+     img{
+          margin-left: 25px;
+          margin-right: 25px;
+     }
+         
    
    
