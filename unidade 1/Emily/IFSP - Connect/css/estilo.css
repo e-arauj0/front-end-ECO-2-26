@@ -17,8 +17,52 @@
      border-bottom: 3px solid #0c0830;
      }
 
-     #menu{
-          
+     nav {
+     background-color: #359830;
+     padding: 12px 20px;
+     border-radius: 12px;
+     }
+
+     nav h3 {
+     color: white;
+     margin: 0 0 10px;
+     font-size: 1.5rem;
+     }
+
+     nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 0.7rem;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     justify-content: center;
+     }
+
+     nav a {
+     display: block;
+     padding: 0.7rem;
+     color: #2b2563;
+     text-decoration: none;
+     border-radius: 0.5rem;
+     transition: background-color 0.2s, transform 0.2s;
+     font-family: "Quantico", sans-serif;
+     font-style: normal;
+     }
+
+     nav a:hover, nav a:focus-visible {
+     background-color: #5c5696;
+     color: black;
+     transform: translateY(-0.2rem);
+     }
+
+     nav a:focus-visible {
+     outline: 2px solid #0c0830;
+     outline-offset: 3px;
+     }
+
+     nav, main, footer {
+     margin-top: 1rem;
      }
 
      table{
