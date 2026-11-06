@@ -11,12 +11,17 @@
 
 <body>
     
-     <header>
-        Desenvolvimento Front-End – Prof.ª Lucineide Pimenta
-        2
-        <!-- Conteúdo principal do projeto -->
-        <h1 id="principal">IFSP Connect</h1>
+    <header id="cabeçalho">
+        <h1 id="principal">
+            <a href="https://gru.ifsp.edu.br/">
+                <img src="../imagens/campus-ifsp.png" alt="Logo ifsp com link para o site do ifsp campus Guarulhos"
+                    align="middle" hspace="50px">
+            </a>
+            IFSP Connect
+        </h1>
     </header>
+
+    <hr>
     
     <nav id="card">
         <h3> <h2 id="destaque">Menu</h2>
@@ -36,62 +41,64 @@
     <hr>
 
     <main>
-        <h2 id="destaque">Cadastro de alunos</h2>
-
         <article id="card">
-            <form action="dados.html">
-                <p>
-                    <label>Nome completo: </label>
-                    <input type="text" placeholder="Digite seu nome completo">
-                </p>
 
-                <p>
-                    <label>Email institucional: </label>
-                    <input type="email" placeholder="Digite seu email institucional">
-                </p>
+            <h2 id="destaque">Cadastro de alunos</h2>
 
-                <p>
-                    <label>Senha:</label>
-                    <input type="password" placeholder="Digite sua senha">
-                </p>
+            
+                <form action="dados.html">
+                    <p>
+                        <label>Nome completo: </label>
+                        <input type="text" placeholder="Digite seu nome completo">
+                    </p>
 
-                <p>
-                    <label>Curso:</label>
-                    <select>
-                        <option>ECO</option>
-                        <option>ECA</option>
-                        <option>ADS</option>
-                        <option>MAT</option>
-                    </select>
-                </p>
+                    <p>
+                        <label>Email institucional: </label>
+                        <input type="email" placeholder="Digite seu email institucional">
+                    </p>
 
-                <p>
-                    <label>Semestre: </label>
-                    <input type="number" placeholder="Digite o semestre">
-                </p>
+                    <p>
+                        <label>Senha:</label>
+                        <input type="password" placeholder="Digite sua senha">
+                    </p>
 
-                <p>
-                    <label>Turno: </label> <br>
-                    <input type="radio" name="turno" value="matutino">Matutino <br>
-                    <input type="radio" name="turno" value="vespertino">Vespertino <br>
-                    <input type="radio" name="turno" value="noturno">Noturno
-                </p>
+                    <p>
+                        <label>Curso:</label>
+                        <select>
+                            <option>ECO</option>
+                            <option>ECA</option>
+                            <option>ADS</option>
+                            <option>MAT</option>
+                        </select>
+                    </p>
 
-                <p>
-                    <label>Interesses: </label> <br>
-                    <input type="checkbox" name="interesses" value="tecnologia">Tecnologia <br>
-                    <input type="checkbox" name="interesses" value="esportes">Esportes <br>
-                    <input type="checkbox" name="interesses" value="musica">Música <br>
-                    <input type="checkbox" name="interesses" value="arte">Arte <br>
-                    <input type="checkbox" name="interesses" value="literatura">Literatura <br>
-                    <input type="checkbox" name="interesses" value="outros">Outros
-                </p>
+                    <p>
+                        <label>Semestre: </label>
+                        <input type="number" placeholder="Digite o semestre">
+                    </p>
 
-                <p>
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpar</button>
-                </p>
-            </form>
+                    <p>
+                        <label>Turno: </label> <br>
+                        <input type="radio" name="turno" value="matutino">Matutino <br>
+                        <input type="radio" name="turno" value="vespertino">Vespertino <br>
+                        <input type="radio" name="turno" value="noturno">Noturno
+                    </p>
+
+                    <p>
+                        <label>Interesses: </label> <br>
+                        <input type="checkbox" name="interesses" value="tecnologia">Tecnologia <br>
+                        <input type="checkbox" name="interesses" value="esportes">Esportes <br>
+                        <input type="checkbox" name="interesses" value="musica">Música <br>
+                        <input type="checkbox" name="interesses" value="arte">Arte <br>
+                        <input type="checkbox" name="interesses" value="literatura">Literatura <br>
+                        <input type="checkbox" name="interesses" value="outros">Outros
+                    </p>
+
+                    <p>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </p>
+                </form>
         </article>
     </main>
 

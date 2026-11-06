@@ -6,6 +6,21 @@
           line-height:1.5;
      }
 
+     #cabeçalho{
+     background-color: #a09bc9;
+     padding: 20px;
+     position:sticky;
+     top: 0;
+     padding: 20px;
+     position:sticky;
+     top: 0;;
+     border-bottom: 3px solid #0c0830;
+     }
+
+     #menu{
+          
+     }
+
      table{
           box-shadow:4px 4px 10px gray;
      }
@@ -25,9 +40,10 @@
 
      #principal{
           text-align: center;
-          color: #0c0830;
+          
           font-family: JetBrains Mono;
           letter-spacing:3px;
+          color: #0c0830;
      }
 
      #card{
@@ -36,6 +52,16 @@
           width: auto;
           height: auto;
           padding: 25px;
+     }
+
+     #card-table{
+          margin: 1em;
+          border: .5em solid #2b2563;
+          padding: .5em;
+          width: 500px;
+          border-radius: 10px;
+          background-color: #d6d2fc;
+          text-align: center;
      }
 
      #destaque{
@@ -58,15 +84,20 @@
           border:2px solid blue;
           background-color: #5c5696;
           color: white
-         }
+     }
 
      h2::before{
           content:"📚";
      }
 
      input[type="password"]{
-          background-color: #a09bc9;
-          color: white
+          background-color: #FF6961;
+          color: white;
+          font-size: 14px;
+     }
+
+     input{
+          font-size: 14px;
      }
 
      #links{
@@ -94,6 +125,12 @@
           margin-left: 25px;
           margin-right: 25px;
      }
-         
+
+     #topo{
+          bottom: 0;
+          position: fixed;  
+          margin: 20px;
+          right: 20px;       
+     } 
    
    
